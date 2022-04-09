@@ -5,10 +5,7 @@
 
 /**
  * this structure holds all measuring items and device id.
- * pragma pack helps for padding and architecture endian
- * differences. If receiver and transmitter devices hardware
- * architecture is reverse(little endian vs big endian) pragma
- * pack will solve the issue, but it have to be applied on both sides.
+ * pragma pack helps for padding.
  * */
 #pragma pack(push, 1)
 
